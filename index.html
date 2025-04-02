@@ -1,58 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Green Leaf</title>
-</head>
-<body>
-<header class="bloco-cinza">
-    <div class="box-img-header">
-        <img class="logo_simbolo" src="imgs/logo_simbolo.png" alt="logo">
-    </div>
-    <nav >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> -->
+
+     <!-- font awesome cdn css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <header class="bloco-cinza">
+      <div class="box-img-header">
+        <img class="logo_simbolo" src="imgs/logo_simbolo.png" alt="logo" />
+      </div>
+      <nav>
         <a href="sobre.html" class="nav-links">Sobre nós</a>
         <!-- somos estudantes da FATEC e estamos desenvolvendo... -->
-        <a href="Youtube" class="nav-links">Youtube</a>  
+        <a href="Youtube" class="nav-links">Youtube</a>
+      </nav>
+    </header>
 
-    </nav>
-</header>
+    <main class="container">
+      <div class="first-section">
+        <div>
+          <h1>
+            Olá! Somos a <br />
+            <span class="white-text">Green</span> Leaf.
+          </h1>
+          <p class="texto-grande">
+            Sustentabilidade em cada <strong>Folha</strong>.
+          </p>
+        </div>
+        <div>
+          <img class="img-folha" src="imgs/folhas.png" alt="" />
+        </div>
+      </div>
 
-<main class="">
-<section class="first-section">
-    <div>
-        <h1>Olá! Somos a <br> <span class="white-text">Green</span> Leaf.</h1>
-        <p class="texto-grande">Sustentabilidade em cada <strong>Folha</strong>.</p>
-    </div>
-    <div>
-       <img class="img-folha" src="imgs/folhas.png" alt="">
-    </div>
-</section>
+      <div id="Sobre nós" class="second-section" class="bloco-cinza">
+        <p class="texto-pequeno">
+          O Projeto Classificação de Bacteriose nas Folhas da Mandioca,
+          Orientado por Aprendizagem Profunda tem como objetivo desenvolver um
+          aplicativo de inteligência artificial (IA) para detectar as
+          probabilidades da infecção por Xanthomonas phaseoli pv. manihotis em
+          folhas de mandioca. Utilizando técnicas de deep learning, o aplicativo
+          permitirá que os usuários capturem imagens das plantas ou enviem
+          imagens armazenadas em seus dispositivos, com intuito de serem
+          analisadas de forma eficaz pela IA do aplicativo, onde será exibido o
+          grau de infecção da planta, fornecendo informações precisas e com
+          agilidade. Além disso, o projeto busca criar um sistema de mapeamento
+          que ajudará na identificação de áreas mais vulneráveis, possibilitando
+          intervenções direcionadas e a melhoria das práticas agrícolas. A
+          implementação deste aplicativo visa não apenas facilitar o
+          monitoramento da saúde das plantações, mas também dar informações aos
+          agricultores com dados que podem ser utilizados para tomar decisões, a
+          fim de ser orientado por um profissional futuramente. A capacidade de
+          detectar infecções de maneira rápida e eficiente é crucial para a
+          diminuição dos danos causados pela bacteriose, promovendo a
+          sustentabilidade da produção de mandioca e contribuindo para a
+          segurança alimentar nas comunidades afetadas.
+        </p>
+        <img
+          src="imgs/plantacao_mandioca.avif"
+          alt=""
+          class="imagem-esquerda"
+        />
+      </div>
+    </main>
 
-<section id="Sobre nós" class="second-section" class="bloco-cinza">
+    <footer class="bloco-amarelo">
+      <!-- <div class="contato">
+        <h2 class="">Contato</h2>
 
-    <p class="texto-pequeno">O Projeto Classificação de Bacteriose nas Folhas da Mandioca, Orientado por Aprendizagem Profunda tem como objetivo desenvolver um aplicativo de inteligência artificial (IA) para detectar as probabilidades da infecção por Xanthomonas phaseoli pv. manihotis em folhas de mandioca. Utilizando técnicas de deep learning, o aplicativo permitirá que os usuários capturem imagens das plantas ou enviem imagens armazenadas em seus dispositivos, com intuito de serem analisadas de forma eficaz pela IA do aplicativo, onde será exibido o grau de infecção da planta, fornecendo informações precisas e com agilidade. Além disso, o projeto busca criar um sistema de mapeamento que ajudará na identificação de áreas mais vulneráveis, possibilitando intervenções direcionadas e a melhoria das práticas agrícolas.
-        A implementação deste aplicativo visa não apenas facilitar o monitoramento da saúde das plantações, mas também dar informações aos agricultores com dados que podem ser utilizados para tomar decisões, a fim de ser orientado por um profissional futuramente. A capacidade de detectar infecções de maneira rápida e eficiente é crucial para a diminuição dos danos causados pela bacteriose, promovendo a sustentabilidade da produção de mandioca e contribuindo para a segurança alimentar nas comunidades afetadas.</p>
-        <img src="imgs/plantacao_mandioca.avif" alt="" class="imagem-esquerda">
-</section>
-
-
-
-
-</main>
-
-
-<footer class="bloco-amarelo">
-
-    <h2 class="Contato">Contato</h2>
-
-        <p>e-mail ✉: <a href="bacteriose.fatec@gmail.com"></a>bacteriose.fatec@gmail.com</p>
+        <p>
+          e-mail ✉:
+          <a src="mailto:fatec.bacteriose@gmail.com"></a>fatec.bacteriose@gmail.com
+        </p>
         <p>Tel. 📞: (13)9974-5923</p>
         <p>Instagram: @bacteriose_fatec</p>
+      </div>
+      
+    </footer> -->
+    <div class="footer" >
+        <div class="info-footer" id="contat"> 
 
-</footer>
+        © 2025 Green Leaf. Todos os direitos reservados.
+        <p class="footer-2">Feito com <i class="fas fa-heart"></i> por Green Leaf</p>
+        </div>
+        <div class="social">
+                <!-- instagram -->
+        <a href="" target="_blank" class="link"><i
+                class="fab fa-instagram"></i></a>
+                <!-- github -->
+        <a href="" target="_blank" class="link"><i
+                class="fab fa-github"></i></a>
+        <!-- links externos -->
+        <a href="" target="_blank" class="link"><i
+                class="fa fa-link"></i></a>
+        
 
-</body>
-<script src="main.js"></script>
+        </div>
+        
+        <img src="assets/logos/fatec_ra_registro_registro/fatec_ra_registro_registro_cor.png"
+            alt="logo fatec registro" srcset="">
+        </div>
+
+</div>
+  </body>
+  <script src="main.js"></script>
 </html>

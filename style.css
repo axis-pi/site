@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,');
 
 *{
-    margin: 0%;
-    padding: 0%;
+   
     box-sizing: border-box;
-    border: #000 solid 1px;
+    /* border: #000 solid 1px; */
 }
 
-.root{
+.container{
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+:root{
 
     --cinza: #455A64;
     --cinzaescuro: #333D42;
-    --verde:  #0DE00D; 
+    --verde:  #066d06; 
     --preto: #000;
     --branco: #fff;
+    --amarelo: #FFC107;
 }
 
 
@@ -83,7 +90,7 @@ min-height: 50px;
     padding-left: 100px;
     left: 5em;
     display: flex;
-    padding: 0;
+    align-items: center;
 }
 
 .logo_simbolo{
@@ -97,7 +104,7 @@ min-height: 50px;
 
 }
 nav{
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -107,7 +114,7 @@ nav{
 }
 
 .nav-links{
-
+    font-size: 1.5em;
     text-decoration:none ;
     color: #FFC107;
 
@@ -117,7 +124,7 @@ nav{
 
     color: #fff;;
     transition: .4s;
-    text-decoration: underline;
+
     
 }
 
@@ -149,12 +156,14 @@ section{
     justify-content: space-between;
     flex-direction: row-reverse; 
     padding:  40px;
+    width: 100%;
 }
 
 .imagem-esquerda {
     max-width: 550px;
     height: auto;
     margin-left: 60px;
+    border-radius: 2%;
 }
 
 .texto-pequeno {
@@ -171,7 +180,7 @@ section{
     margin-top: 2rem;
     text-align: center; 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center; 
     justify-content: center; 
     height: auto;
@@ -179,10 +188,47 @@ section{
     margin-top: 10px; 
     margin-bottom: 0px; 
 }
-footer{
-    /* background-color: #333D42; */
-    color: #fff;
+
+.footer {
+
+    color: var(--cinzaescuro);
     text-align: center;
-    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1.2rem;
     margin-top: 2rem;
+    justify-content: space-between;
+    
+}
+
+.info-footer {
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .footer .info-footer p {
+    font-size: 80% !important;
+} */
+
+.footer .info-footer i {
+    font-size: 70% !important;
+    color: var(--verde);
+
+}
+
+.footer img {
+    width: 10% !important;
+    height: auto !important;
+    margin-right: 5%;
+}
+
+.footer i {
+    color: var(--cinza);
+    font-size: 200%;
+
+
+
 }

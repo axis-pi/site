@@ -219,6 +219,11 @@ section{
 
 }
 
+.footer .info-footer i:hover {
+    color: red;
+    transition: .4s;
+}
+
 .footer img {
     width: 10% !important;
     height: auto !important;

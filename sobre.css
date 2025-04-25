@@ -1,0 +1,21 @@
+:root{
+
+    --cinza: #455A64;
+    --cinzaescuro: #333D42;
+    --verde:  #066d06; 
+    --preto: #000;
+    --branco: #fff;
+    --amarelo: #FFC107;
+}
+body{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    color: var(--amarelo);
+}

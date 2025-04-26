@@ -78,7 +78,6 @@ body{
 header{
 
 display: flex;
-justify-content: space-between;
 align-items: center;
 gap: 5rem;
 flex-wrap: wrap;
@@ -92,10 +91,23 @@ min-height: 50px;
 header img{
     max-width: 120%;
     height: auto;
-    margin-left: 5%;
+    margin-left: -60px;
     margin-right: 5%;
     
     
+}
+
+.bloco-amarelo{
+    
+    padding: 1rem;
+    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around; 
+    height: auto;
+    overflow: hidden; 
+    margin-bottom: 0px; 
 }
 
 .box-img-header{
@@ -126,7 +138,7 @@ header img{
     border: 2px solid var(--cor_principal);
 
 }
-nav{
+.nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     gap: 2rem;
@@ -159,10 +171,6 @@ main{
     
 }
 
-section{
-    /* padding: 4rem; */
-    
-}
 
 .first-section {
     display: flex;
@@ -176,27 +184,21 @@ section{
     background-color: var(--cor_secundaria);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row-reverse; 
     padding:  40px;
     width: 100%;
 }
 
-.imagem-esquerda {
-    max-width: 52%;
-    height: auto;
-    margin-left: 60px;
-    border-radius: 2%;
+.second-section img {
+    height: 35em; 
+    width: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    
+    border: 2px solid var(--cor_principal);
 }
 
-.texto-pequeno {
-    font-size: 1.2rem;
-    max-width: 700px;
-    color: var(--cor_terciaria); 
-    text-align: left; 
-    font-family: var(--fonte_terciaria);
-    gap: 1.1rem;
-}
 
 .bloco-cor_principa {
      

@@ -1,0 +1,60 @@
+:root{
+
+    --cinza: #455A64;
+    --cinzaescuro: #333D42;
+    --verde:  #066d06; 
+    --preto: #000;
+    --branco: #fff;
+    --amarelo: #FFC107;
+    --fonte-padrao: 'Helvetica', sans-serif;
+    --fonte-titulo: 'Arial', sans-serif;
+}
+
+
+.texto{
+    color: var(--amarelo);
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cinzaescuro);
+    margin: 0;
+    padding: 0;
+  }
+  .header-yellow {
+    background-color: #f7c000;
+    padding: 50px 20px;
+    color: #000;
+    text-align: center;
+  }
+  .header-yellow p {
+    max-width: 700px;
+    margin: 20px auto 0;
+  }
+  .team-section {
+    background-color: #111;
+    color: white;
+    padding: 60px 20px;
+  }
+  .team-member {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .team-member .foto {
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+    border-radius: 50%;
+    line-height: 120px;
+    margin: 0 auto 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  footer {
+    background-color: #f7c000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+   
+    bottom: 0;
+  }

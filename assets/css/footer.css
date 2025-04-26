@@ -1,14 +1,18 @@
 
 
 .footer {
-
+    background-color: var(--amarelo);
     color: var(--cor_secundaria);
     text-align: center;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 1.2rem;
-    margin-top: 2rem;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--fonte-padrao);
+ 
+    bottom: 0;
     justify-content: space-between;
     
 }
@@ -20,9 +24,6 @@
 }
 
 
-/* .footer .info-footer p {
-    font-size: 80% !important;
-} */
 
 .footer .info-footer i {
     font-size: 70% !important;

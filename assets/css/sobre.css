@@ -9,6 +9,19 @@
     --fonte-padrao: 'Helvetica', sans-serif;
     --fonte-titulo: 'Arial', sans-serif;
 }
+*{
+   
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: #000 solid 1px;  */
+}
+.container{
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0px;
+}
 
 
 .texto{
@@ -17,12 +30,11 @@
 
 body {
     font-family: var(--fonte-padrao);
-    background-color: var(--cinzaescuro);
-    margin: 0;
-    padding: 0;
+  
+    background-color: var(--amarelo);
   }
   .header-yellow {
-    background-color: #f7c000;
+    
     padding: 50px 20px;
     color: #000;
     text-align: center;
@@ -35,6 +47,7 @@ body {
     background-color: #111;
     color: white;
     padding: 60px 20px;
+    height: 100%
   }
   .team-member {
     text-align: center;
@@ -50,11 +63,4 @@ body {
     font-weight: bold;
     color: #333;
   }
-  footer {
-    background-color: #f7c000;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-   
-    bottom: 0;
-  }
+  

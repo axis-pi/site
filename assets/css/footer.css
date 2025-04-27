@@ -13,7 +13,7 @@
     font-family: var(--fonte-padrao);
  
     bottom: 0;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -45,6 +45,7 @@
 .footer i {
     color: var(--cor_secundaria);
     font-size: 200%;
+    gap: 1rem;
 
 
 

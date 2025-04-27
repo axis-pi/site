@@ -5,21 +5,33 @@
   margin: 0;
   padding: 0;
   /* border: #000 solid 1px;  */
+  
 }
 
 .container-fluid {
   width: 100%;
   margin: 0 auto;
   padding: 0px;
+  height: 100vh; /* Altura da tela inteira */
 }
 
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color:  var(--cor_principal);
+    font-family: var(--fonte_primaria); /* Define a fonte padrão */
+   
+  
+    
+   
+}
 :root {
   --cinza: #455a64;
-  --cor_secundaria: #1a1a1a;
   --verde: #066d06;
   --preto: #000;
-  --cor_terciaria: #fff;
+  --cor_terciaria: var(--verde);
   --cor_principal: #ffc107;
+  --cor_secundaria: #1a1a1a;
   --fonte_primaria: "Krona One", sans-serif;
   --fonte_secundaria: "Poppins", sans-serif;
   --fonte_terciaria: "Montserrat", sans-serif;
@@ -35,6 +47,14 @@ header img {
   margin-left: -60px;
   margin-right: 5%;
 }
+#axis{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    width: 20% !important;
+    height: 20% !important; 
+}
+
 
 .bloco-amarelo {
   padding: 2rem;

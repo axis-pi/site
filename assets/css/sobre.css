@@ -5,8 +5,12 @@
   --preto: #000;
   --branco: #fff;
   --amarelo: #ffc107;
-  --fonte-padrao: "Helvetica", sans-serif;
-  --fonte-titulo: "Arial", sans-serif;
+  --cor_principal: var(--amarelo);
+  --cor_secundaria: #1a1a1a;
+  --cor_terciaria: var(--verde);
+  --fonte_primaria: "Krona One", sans-serif;
+  --fonte_secundaria: "Poppins", sans-serif;
+  --fonte_terciaria: "Montserrat", sans-serif;
 }
 
 .texto {
@@ -14,9 +18,8 @@
 }
 
 body {
-  font-family: var(--fonte-padrao);
-
-  background-color: var(--amarelo);
+  font-family: var(--fonte_secundaria);
+  background-color: var(--cor_principal);
 }
 .header-yellow {
   padding: 50px 20px;

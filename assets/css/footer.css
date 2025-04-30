@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--amarelo);
+    /* background-color: var(--amarelo); */
     color: var(--cor_secundaria);
     text-align: center;
     display: flex;

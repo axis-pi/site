@@ -2,21 +2,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
 :root {
   --cinza: #455a64;
+  --branco: #fff;
   --verde: #066d06;
   --preto: #000;
   --amarelo: #ffc107;
-  --cor_terciaria: var(--verde);
+  --cor_terciaria: var(--branco);
   --cor_principal: var(--amarelo);
   --cor_secundaria: #1a1a1a;
   --fonte_primaria: "Krona One", sans-serif;
   --fonte_secundaria: "Poppins", sans-serif;
   --fonte_terciaria: "Montserrat", sans-serif;
+  --fonte4 : "times new roman";
+  --fonte5 : "arial", sans-serif;
   --header-height: 80px;
 }
 * {
   margin: 0;
   padding: 0;
   /* Removido border global para evitar poluição visual */
+  /* border: #000 solid 1px; */
 }
 
 .container-fluid {
@@ -27,17 +31,20 @@
 }
 
 body {
-  font-family: var(--fonte_primaria);
+  font-family: var(--fonte_secundaria);
   font-size: 1rem;
   background-color: var(--cor_principal);
+ 
 }
 
 header {
   background-color: var(--cor_secundaria);
+  
   min-height: var(--header-height);
 }
 
 .bloco-amarelo {
+  
   padding: 2rem 1rem;
   text-align: center;
   display: flex;

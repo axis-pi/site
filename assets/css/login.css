@@ -2,7 +2,7 @@ body {
     font-family: var(--fonte_secundaria);
     margin: 0;
     padding: 0;
-    background: linear-gradient(195deg, var(--cor_principal), var(--cor_secundaria));
+   
     color: #fff;
     /* Removido display, justify-content e align-items do body para não afetar outras páginas */
   }

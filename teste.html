@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Green Leaf</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <style>
     body {
       background-color: #1e1e1e;
@@ -28,62 +30,105 @@
     .hero-title {
       font-size: 2.5rem;
     }
+    .first-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+    }
+    .second-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .img-folha {
+      width: 100px;
+      height: 100px;
+    }
+    .bloco-amarelo {
+      background-color: #f9b400;
+    }
+    .nav {
+      display: flex;
+      gap: 1rem;
+    }
+    .nav-links {
+      text-decoration: none;
+      color: #fff;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    .social {
+      display: flex;
+      gap: 1rem;
+    }
+    .link {
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo-fatec {
+      width: 100px;
+      height: auto;
+    }
+    .box-img-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo_simbolo {
+      width: 50px;
+      height: 50px;
+    }
   </style>
 </head>
 <body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-dark text-light px-4">
-    <div class="container-fluid">
-      <a class="navbar-brand text-light" href="#">
-        <img src="logo.png" alt="Green Leaf" width="40" class="me-2">
-        Green Leaf
-      </a>
-      <div class="ms-auto">
-        <a class="nav-link d-inline text-light" href="#">Sobre nós</a>
-        <a class="nav-link d-inline text-light" href="#">Youtube</a>
+    <header class="bloco-amarelo">
+      <div class="box-img-header">
+        <img class="logo_simbolo" src="imgs/logo_simbolo.png" alt="logo" />
       </div>
-    </div>
-  </nav>
+      <div id="axis" class="box-img-header"><img src="assets/logos/AXIS.svg" alt=""></div>
+      <nav class="nav">
+        <a href="index.html" class="nav-links">Início</a>
+        <a href="sobre.html" class="nav-links">Sobre nós</a>
+        <a href="login.html" class="nav-links">Login</a>
+      </nav>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="bg-yellow text-dark py-5 px-4">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div>
-        <h1 class="hero-title">Olá! Somos a <span class="highlight">Green Leaf</span>.</h1>
-        <p class="mt-2">Sustentabilidade em cada <span class="highlight">Folha.</span></p>
-      </div>
-      <img src="leaf-icon.png" alt="Ícone de folha" class="leaf-icon">
-    </div>
-  </section>
+    <main class="container-fluid">
+      <section class="first-section">
+        <div>
+          <h1 class="hero-title">Olá! Somos a <span class="white-text">Green Leaf</span>.</h1>
+          <p class="texto-grande">Sustentabilidade em cada <strong>Folha.</strong></p>
+        </div>
+        <img src="imgs/folhas.svg" alt="Ícone de folha" class="img-folha">
+      </section>
+      <section class="second-section">
+        <img src="https://cdn.pixabay.com/photo/2017/01/20/00/30/cassava-1994194_1280.jpg" alt="Campo de mandioca" class="img-fluid rounded" style="max-width: 500px;">
+        <div>
+          <p>O Projeto Classificação de Bacteriose nas Folhas da Mandioca, Orientado por Aprendizagem Profunda tem como objetivo desenvolver um aplicativo de inteligência artificial (IA) para detectar as probabilidades da infecção por <i>Xanthomonas phaseoli pv. manihotis</i> em folhas de mandioca. Utilizando técnicas de deep learning, o aplicativo permitirá que os usuários capturem imagens das plantas ou enviem imagens armazenadas em seus dispositivos, com intuito de serem analisadas de forma eficaz pela IA do aplicativo...</p>
+        </div>
+      </section>
+    </main>
 
-  <!-- Projeto Section -->
-  <section class="py-5 px-4">
-    <div class="container d-md-flex align-items-start gap-5">
-      <img src="https://cdn.pixabay.com/photo/2017/01/20/00/30/cassava-1994194_1280.jpg" alt="Campo de mandioca" class="img-fluid rounded" style="max-width: 500px;">
-      <div>
-        <p>O Projeto Classificação de Bacteriose nas Folhas da Mandioca, Orientado por Aprendizagem Profunda tem como objetivo desenvolver um aplicativo de inteligência artificial (IA) para detectar as probabilidades da infecção por <i>Xanthomonas phaseoli pv. manihotis</i> em folhas de mandioca. Utilizando técnicas de deep learning, o aplicativo permitirá que os usuários capturem imagens das plantas ou enviem imagens armazenadas em seus dispositivos, com intuito de serem analisadas de forma eficaz pela IA do aplicativo...</p>
+    <footer class="bloco-amarelo">
+      <div class="footer">
+        <div class="info-footer" id="contat">
+          © 2025 Green Leaf. Todos os direitos reservados.
+          <p class="footer-2">Feito com <i class="fas fa-heart"></i> por Green Leaf</p>
+        </div>
+        <div class="social">
+          <a href="#" target="_blank" class="link"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank" class="link"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" class="link"><i class="fa fa-link"></i></a>
+        </div>
+        <img src="assets/logos/fatec_ra_registro_registro/fatec_ra_registro_registro_pb.png" alt="logo fatec registro" class="logo-fatec">
       </div>
-    </div>
-  </section>
-
-  <!-- Rodapé -->
-  <footer class="bg-yellow text-dark py-4 text-center">
-    <div class="container">
-      <p>© 2025 Green Leaf. Todos os direitos reservados.<br>Feito com <span class="text-success">♥</span> por Green Leaf</p>
-      <div class="mt-2">
-        <a href="#" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="text-dark me-3"><i class="bi bi-github"></i></a>
-        <a href="#" class="text-dark"><i class="bi bi-link-45deg"></i></a>
-      </div>
-      <div class="mt-2 fw-bold">
-        Fatec <span class="text-dark">Registro</span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Bootstrap Icons (opcional) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>

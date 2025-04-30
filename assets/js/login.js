@@ -7,8 +7,8 @@ function handleLogin(event) {
   
     // Usuário e senha "fakes" pra simulação
     const usuarios = [
-      { email: "admin@teuzin.com", senha: "123456" },
-      { email: "user@teuzin.com", senha: "senha123" },
+      { email: "admin@axis.com", senha: "123456" },
+      { email: "user@axis.com", senha: "senha123" },
     ];
   
     const usuarioValido = usuarios.find(

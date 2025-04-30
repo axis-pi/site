@@ -5,11 +5,12 @@
   --branco: #fff;
   --verde: #066d06;
   --preto: #000;
+  --cinza-escuro: #1a1a1a;
   --amarelo: #ffc107;
   --cor_terciaria: var(--branco);
   --cor_principal: var(--amarelo);
-  --cor_secundaria: #1a1a1a;
-  --fonte_primaria: "Krona One", sans-serif;
+  --cor_secundaria: var(--cinza-escuro);
+  --fonte_primaria: var(--fonte4);
   --fonte_secundaria: "Poppins", sans-serif;
   --fonte_terciaria: "Montserrat", sans-serif;
   --fonte4 : "times new roman";
@@ -25,14 +26,14 @@
 
 .container-fluid {
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0px;
   height: 100vh; /* Altura da tela inteira */
 }
 
 body {
   font-family: var(--fonte_secundaria);
-  font-size: 1rem;
+  /* font-size: 1rem; */
   background-color: var(--cor_principal);
  
 }

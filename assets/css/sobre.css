@@ -50,3 +50,8 @@ body {
   font-weight: bold;
   color: #333;
 }
+
+.leo {
+  /* rotaciona a imagem em 90 graus */
+  transform: rotate(-90deg);
+}

@@ -16,17 +16,18 @@
   --fonte4 : "times new roman";
   --fonte5 : "arial", sans-serif;
   --header-height: 80px;
-}
+}/* 
 * {
   margin: 0;
   padding: 0;
-  /* Removido border global para evitar poluição visual */
-  /* border: #000 solid 1px; */
-}
+  Removido border global para evitar poluição visual */
+  /* border: #000 solid 1px; 
+}*/
+
 
 .container-fluid {
   width: 100%;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 0px;
   height: 100vh; /* Altura da tela inteira */
 }

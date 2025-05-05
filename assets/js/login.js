@@ -18,6 +18,9 @@ function handleLogin(event) {
     if (usuarioValido) {
       message.style.color = "#00ff99";
       message.textContent = "Login feito com sucesso! 🔓";
+      window.location.href = "projeto/cadastro.html"; // redirecionar para a página do painel de cadastro
+      
+
       // Aqui pode redirecionar com window.location.href = "painel.html";
     } else {
       message.style.color = "#ff4d4d";

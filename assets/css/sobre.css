@@ -49,9 +49,22 @@ body {
   margin: 0 auto 15px;
   font-weight: bold;
   color: #333;
+  /* animation: girar 2s infinite; */
 }
 
 .leo {
   /* rotaciona a imagem em 90 graus */
   transform: rotate(-90deg);
+  /* deixa a imagem girando */
+  
+
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

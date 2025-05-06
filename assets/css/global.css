@@ -88,6 +88,14 @@ header {
 #axis img {
   width: 220px;
   height: auto;
+  /* fixa a imagem ao centro */
+  margin: 0 auto;
+  /* remove o padding */
+  padding: 0;
+  /* remove a borda */
+  border: none;
+  /* remove a margem */
+
 }
 
 @media (max-width: 900px) {

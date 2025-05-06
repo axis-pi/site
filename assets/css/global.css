@@ -18,15 +18,16 @@
   --header-height: 80px;
 }
 * {
-  margin: 0;
-  padding: 0;
-  /* Removido border global para evitar poluição visual */
-  /* border: #000 solid 1px; */
+  /* margin: 0; */
+  /* padding: 0; */
+  /* Removido border global para evitar poluição visual */ 
+   /* border: #000 solid 1px;  */
 }
+
 
 .container-fluid {
   width: 100%;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 0px;
   height: 100vh; /* Altura da tela inteira */
 }
@@ -68,7 +69,7 @@ header {
 }
 
 .nav-links {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-decoration: none;
   color: var(--cor_principal);
   font-family: var(--fonte_secundaria);
@@ -80,12 +81,12 @@ header {
 }
 
 .logo_simbolo {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 #axis img {
-  width: 60px;
+  width: 220px;
   height: auto;
 }
 

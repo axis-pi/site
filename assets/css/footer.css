@@ -6,7 +6,7 @@
     flex-direction: row;
     width: 100%;
     min-height: 32px;
-    padding: 0.2rem 0.5rem;
+    padding: 1rem 0.5rem;
     font-size: 1rem;
     font-family: var(--fonte_secundaria);
     bottom: 0;
@@ -18,23 +18,23 @@
 
 .info-footer {
     gap: 0.2rem;
-    font-size: 0.95rem;
+    font-size: 1.35rem;
     font-family: var(--fonte_secundaria);
     display: flex;
     flex-direction: column;
-    padding: 0.2rem;
+    padding: 1.5rem;
     align-items: flex-start;
 }
 
 .footer img {
-    width: 10%;
+    width: 10em;
     height: auto !important;
     margin-right: 0;
 }
 
 .footer i {
     color: var(--cor_secundaria);
-    font-size: 1.2em;
+    font-size: 1em;
     gap: 0.2rem;
 }
 

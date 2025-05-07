@@ -71,6 +71,19 @@
   gap: 0.2rem;
 }
 
+.footer .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-size: 15px;
+    padding: 10px;
+    color: var(--branco);
+    gap: 0.5rem;
+}
+
 #contact i:hover {
   color: var(--cor_terciaria);
   transition: color 0.3s;
@@ -78,14 +91,6 @@
   transform: scale(1.1);
   transition: transform 0.3s;
   transition: color 0.3s;
-}
-
-
-.social {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
 }
 
 @media (max-width: 900px) {

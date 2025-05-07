@@ -83,6 +83,8 @@ header {
 .logo_simbolo {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
+  border: 1.5px solid var(--cor_principal);
 }
 
 #axis img {

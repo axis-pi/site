@@ -1,6 +1,6 @@
 .footer {
     /* background-color: var(--amarelo); */
-    color: var(--cor_secundaria);
+    
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -24,6 +24,33 @@
     flex-direction: column;
     padding: 1.5rem;
     align-items: flex-start;
+    color: var(--cor_secundaria);
+    
+}
+#contact {
+  gap: 0.2rem;
+  font-size: 1.35rem;
+  font-family: var(--fonte_secundaria);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  align-items: flex-start;
+  color: var(--branco);
+  
+}
+
+
+
+.login-footer {
+    /* gap: 0.2rem;
+    font-size: 1.35rem;
+    font-family: var(--fonte_secundaria);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: flex-end; */
+    background-color: var(--cor_secundaria);
+   color: var(--cor_terciaria);
 }
 
 .footer img {
@@ -34,9 +61,25 @@
 
 .footer i {
     color: var(--cor_secundaria);
-    font-size: 1em;
+    font-size: 2em;
     gap: 0.2rem;
 }
+
+#contact i {
+  color: var(--cor_principal);
+  font-size: 1em;
+  gap: 0.2rem;
+}
+
+#contact i:hover {
+  color: var(--cor_terciaria);
+  transition: color 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  transition: color 0.3s;
+}
+
 
 .social {
     display: flex;

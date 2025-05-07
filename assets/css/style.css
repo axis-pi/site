@@ -14,10 +14,11 @@ h1 {
     letter-spacing: 4px;
     color: var(--cor_secundaria);
     font-family: var(--fonte_primaria);
+    
 }
 
 .texto-grande {
-    text-align: left;
+    text-align: left ;
     font-size: 1.3rem;
     color: var(--cor_secundaria);
     font-family: var(--fonte4);
@@ -43,10 +44,9 @@ h1 {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 4rem 1rem 4rem 1rem; /* aumenta o espaço vertical */
+    padding: 4rem 1rem 4rem 1rem; 
     margin-top: 2rem;
-    /* width: 100%; */
-    /* gap: 20rem; */
+    margin-left: 100px;
     height: 22vh;
 }
 

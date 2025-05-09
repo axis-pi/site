@@ -72,6 +72,8 @@ h1 {
     border-radius: 5px;
 }
 
+
+
 @media (max-width: 900px) {
   .first-section, .second-section {
     flex-direction: column;

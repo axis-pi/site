@@ -29,7 +29,7 @@
     padding: 1.5rem;
     align-items: flex-start;
     color: var(--cor_secundaria);
-    
+        
 }
 #contact {
   gap: 0.2rem;
@@ -104,6 +104,10 @@
   transform: scale(1.1);
   transition: transform 0.3s;
   transition: color 0.3s;
+}
+
+.bloco-amarelo{
+
 }
 
 @media (max-width: 900px) {

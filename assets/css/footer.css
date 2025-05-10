@@ -98,7 +98,7 @@
 }
 
 .footer i:hover {
-  color: var(--cor_);
+  color: var(--verde) !important;
   transition: color 0.3s;
   cursor: pointer;
   transform: scale(1.1);

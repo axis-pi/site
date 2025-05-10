@@ -61,7 +61,7 @@
 
 .footer i {
     color: var(--cor_secundaria);
-    font-size: 2em;
+    font-size: 1em;
     gap: 0.2rem;
 }
 
@@ -86,6 +86,15 @@
 
 #contact i:hover {
   color: var(--cor_terciaria);
+  transition: color 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  transition: color 0.3s;
+}
+
+.footer i:hover {
+  color: var(--cor_);
   transition: color 0.3s;
   cursor: pointer;
   transform: scale(1.1);

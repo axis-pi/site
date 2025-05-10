@@ -39,7 +39,7 @@
         max-width: 600px;
         margin-top: 50px;
         padding: 20px;
-        background: #fff;
+        background: var(--cor_secundaria);
         border-radius: 25px;
         
 
@@ -47,24 +47,28 @@
       }
       h2 {
         text-align: center;
+        color: var(--amarelo);
       }
       #formCadastro {
         display: flex;
         flex-direction: column;
-
+        background-color: var(--cor_secundaria);
         margin: 0 auto;
         padding: 20px;
         border-radius: 5px;
+        color: #fff;
       }
 
-      .form-group {
+      /* .form-group {
         margin-bottom: 15px;
         padding: 5px;
         border-radius: 5px;
         background-color: #f8f8f8;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         border: 2px solid #1a1a1a;
-      }
+        
+      } */
+
       .form-group label {
         display: block;
         margin-bottom: 5px;
@@ -77,25 +81,26 @@
       }
       .form-actions {
         text-align: center;
+        
       }
       .form-actions button {
         padding: 10px 15px;
         margin-right: 10px;
+        margin-top: 10px;
       }
         .btn-cdt {
             background-color: #28a745;
             color: white;
-            padding: 10px 15px;
+            padding: 4px 9px;
             border: none;
             border-radius: 5px;
         }
         .btn-cdt:hover {
             background-color: #218838;
-        }
-        .btn-limpar {
+        }        .btn-limpar {
             background-color: #dc3545;
             color: white;
-            padding: 10px 15px;
+            padding: 5px 9px;
             border: none;
             border-radius: 5px;
         }
@@ -105,7 +110,7 @@
         .btn-voltar {
             background-color: #007bff;
             color: white;
-            padding: 10px 15px;
+            padding: 5px 9px;
             border: none;
             border-radius: 5px;
         }
@@ -165,7 +170,10 @@
         <div class="form-actions">
           <a class="btn-cdt" href="#" type="submit">Cadastrar</a>
           <a class="btn-limpar" href="#" ctype="reset">Limpar</a>
+          <a class="" type="hidden" href=></a>
           <a class="btn-voltar" href="../index.html">Voltar</a>
+          
+          
         </div>
       </form>
       <!-- <hr>

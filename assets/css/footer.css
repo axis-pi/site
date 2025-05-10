@@ -16,6 +16,10 @@
     flex-wrap: wrap;
 }
 
+.footer-2 i {
+    color: var(--cor_terciaria) !important;
+}
+
 .info-footer {
     gap: 0.2rem;
     font-size: 1.35rem;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- Ajuste o caminho conforme necessário -->
     <link rel="stylesheet" href="../assets/css/cadastro.css" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
     <!-- Ajuste o caminho conforme necessário -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
@@ -35,8 +36,9 @@
       /*background-color: #f8e5a2; */
 
       .container {
-        width: auto;
+        width: 100%;
         max-width: 600px;
+        
         margin-top: 50px;
         padding: 20px;
         background: var(--cor_secundaria);
@@ -81,12 +83,17 @@
       }
       .form-actions {
         text-align: center;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
         
       }
       .form-actions button {
         padding: 10px 15px;
         margin-right: 10px;
-        margin-top: 10px;
+     
+  
       }
         .btn-cdt {
             background-color: #28a745;
@@ -135,6 +142,7 @@
     </style>
   </head>
   <body>
+  
     <header class="bloco-amarelo">
       <div class="box-img-header">
         <img class="logo_simbolo" src="../imgs/logo_simbolo.png" alt="logo" />
@@ -148,7 +156,8 @@
         <a href="../login.html" class="nav-links">Login</a>
       </div>
     </header>
-    <div class="container">
+    <main class="login-main">
+    <div class="container" style="min-height:50vh;">
       <h2>Cadastro de Usuário</h2>
       <form id="formCadastro" autocomplete="off">
         <div class="form-group">
@@ -170,70 +179,30 @@
         <div class="form-actions">
           <a class="btn-cdt" href="#" type="submit">Cadastrar</a>
           <a class="btn-limpar" href="#" ctype="reset">Limpar</a>
-          <a class="" type="hidden" href=></a>
+       
           <a class="btn-voltar" href="../index.html">Voltar</a>
           
           
         </div>
       </form>
-      <!-- <hr>
-        <h3>Usuários Cadastrados</h3>
-        <table id="tabelaUsuarios">
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Email</th>
-                    <th>Login</th>
-                    <th>Senha</th>
-                </tr>
-            </thead>
-            <tbody>
-                Usuários serão inseridos aqui 
-            </tbody>
-        </table> -->
+      
     </div>
-    <script>
-      const form = document.getElementById("formCadastro");
-      const tabela = document
-        .getElementById("tabelaUsuarios")
-        .getElementsByTagName("tbody")[0];
-
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
-        const nome = document.getElementById("nome").value;
-        const email = document.getElementById("email").value;
-        const login = document.getElementById("login").value;
-        const senha = document.getElementById("senha").value;
-
-        const row = tabela.insertRow();
-        row.insertCell(0).textContent = nome;
-        row.insertCell(1).textContent = email;
-        row.insertCell(2).textContent = login;
-        row.insertCell(3).textContent = senha;
-
-        form.reset();
-      });
-    </script>
-    <footer class="bloco-amarelo">
+    </main>
+    <footer class="login-footer">
       <div class="footer">
-        <div class="info-footer" id="contat">
+        <div class="info-footer login" id="contact">
           © 2025 Green Leaf. Todos os direitos reservados.
-          <p class="footer-2">
-            Feito com <i class="fas fa-heart"></i> por Green Leaf
-          </p>
+          <p class="footer-2">Feito com <i class="fas fa-heart"></i> por Green Leaf</p>
         </div>
         <div type="hidden" id="spaceBlock"> </div>
         <div type="hidden" id="spaceBlock"> </div>
         
         <div type="hidden" id="spaceBlock"> </div>
         <div type="hidden" id="spaceBlock"> </div>
-        <img
-          src="../assets/logos/fatec_ra_registro_registro/fatec_ra_registro_registro_pb.png"
-          alt="logo fatec registro"
-          class="logo-fatec"
-        />
+        <img src="../assets/logos/fatec_ra_registro_registro/fatec_ra_registro_registro_br.png" alt="logo fatec registro" class="logo-fatec">
       </div>
     </footer>
-    <script src="assets/js/login.js"></script>
+
+    <script src="assets/js/cadastro.js"></script>
   </body>
 </html>

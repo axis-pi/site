@@ -142,20 +142,25 @@
     </style>
   </head>
   <body>
-  
-    <header class="bloco-amarelo">
-      <div class="box-img-header">
-        <img class="logo_simbolo" src="../imgs/logo_simbolo.png" alt="logo" />
-      </div>
-      <div id="axis" class="box-img-header">
-        <img src="../assets/logos/AXIS.svg" alt="" />
-      </div>
-      <div class="nav">
-        <a href="../index.html" class="nav-links">Início</a>
-        <!-- <a href="sobre.html" class="nav-links">Sobre nós</a> -->
-        <a href="../login.html" class="nav-links">Login</a>
-      </div>
-    </header>
+    <div class="">
+      <header class="bloco-amarelo" style="position:relative;">
+        <button class="menu-toggle" aria-label="Abrir menu" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="box-img-header">
+          <img class="logo_simbolo" src="../imgs/logo_simbolo.png" alt="logo" />
+        </div>
+        <div type="hidden" id="spaceBlock"> </div>
+        <div type="hidden" id="spaceBlock"> </div>
+        <div id="axis" class="box-img-header"><img src=".../assets/logos/AXIS.svg" alt=""></div>
+        <div type="hidden" id="spaceBlock"></div>
+        <nav class="nav">
+          <a href="../index.html" class="nav-links">Início</a>
+          <a href="../sobre.html" class="nav-links">Sobre Nós</a>
+          <a href="cadastro.html" class="nav-links">Cadastro</a>
+          <a href="../login.html" class="nav-links">Login</a>
+        </nav>
+      </header>
     <main class="login-main">
     <div class="container" style="min-height:50vh;">
       <h2>Cadastro de Usuário</h2>
@@ -203,6 +208,27 @@
       </div>
     </footer>
 
-    <script src="assets/js/cadastro.js"></script>
+    <script src="../main.js"></script>
+    <script>
+    // Carrega o header padronizado
+    /* fetch('../assets/header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-container').innerHTML = data;
+      }); */
+
+    function toggleMenu() {
+      var nav = document.querySelector('.nav');
+      nav.classList.toggle('active');
+    }
+    // Fecha o menu ao clicar fora
+    window.addEventListener('click', function(e) {
+      var nav = document.querySelector('.nav');
+      var btn = document.querySelector('.menu-toggle');
+      if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target)) {
+        nav.classList.remove('active');
+      }
+    });
+    </script>
   </body>
 </html>

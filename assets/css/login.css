@@ -94,12 +94,19 @@ body {
 
   @media (max-width: 600px) {
     .login-container {
-      max-width: 95vw;
-      padding: 10px;
-      margin: 10px 0;
+      max-width: 98vw;
+      padding: 8px;
+      margin: 8px 0;
     }
     .login-main {
-      min-height: calc(100vh - 100px);
+      min-height: calc(100vh - 80px);
       padding: 0;
+    }
+    .login-box input, .login-box button {
+      width: 100%;
+      font-size: 15px;
+    }
+    .login-box h2 {
+      font-size: 1.2rem;
     }
   }

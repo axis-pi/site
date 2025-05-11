@@ -1,0 +1,68 @@
+/* Responsividade para o cadastro */
+@media (max-width: 900px) {
+  .container {
+    max-width: 98vw;
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 99vw;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  #formCadastro {
+    padding: 8px;
+  }
+  .form-group input {
+    font-size: 0.95rem;
+    padding: 5px;
+  }
+  .form-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .form-actions button,
+  .form-actions a {
+    width: 100%;
+    margin-right: 0;
+  }
+  table, th, td {
+    font-size: 0.9rem;
+    padding: 6px;
+  }
+  header .box-img-header img {
+    max-width: 80px;
+  }
+  .logo-fatec {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 3px;
+  }
+  h2 {
+    font-size: 0.95rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+  padding: 20px;
+  background: var(--cor_secundaria);
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  text-align: center;
+  color: var(--cor_principal);
+}

@@ -87,17 +87,8 @@
   </style>
 </head>
 <body>
-    <header class="bloco-amarelo">
-      <div class="box-img-header">
-        <img class="logo_simbolo" src="imgs/logo_simbolo.png" alt="logo" />
-      </div>
-      <div id="axis" class="box-img-header"><img src="assets/logos/AXIS.svg" alt=""></div>
-      <nav class="nav">
-        <a href="index.html" class="nav-links">Início</a>
-        <a href="sobre.html" class="nav-links">Sobre nós</a>
-        <a href="login.html" class="nav-links">Login</a>
-      </nav>
-    </header>
+    <div class="">
+      <div id="header-container"></div>
 
     <main class="container-fluid">
       <section class="first-section">
@@ -130,5 +121,26 @@
       </div>
     </footer>
     <script src="main.js"></script>
+    <script>
+      // Carrega o header padronizado
+      fetch('assets/header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header-container').innerHTML = data;
+        });
+
+      function toggleMenu() {
+        var nav = document.querySelector('.nav');
+        nav.classList.toggle('active');
+      }
+      // Fecha o menu ao clicar fora
+      window.addEventListener('click', function(e) {
+        var nav = document.querySelector('.nav');
+        var btn = document.querySelector('.menu-toggle');
+        if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target)) {
+          nav.classList.remove('active');
+        }
+      });
+    </script>
 </body>
 </html>
